@@ -12,16 +12,24 @@
 	color: red;
 }
 
- ul li:nth-child(1){
+ ul li:nth-child(odd){
 	background-color:white;
+	width: 50%;
+         padding: 10px;
+         font-size: 22px;
 }
 
  ul li:nth-child(5){
 	background-color:white;
+	width: 50%;
+         padding: 10px;
+	font-size: 22px;
 }
 
  ul li:nth-child(2){
     background-color: slategrey;
+    width: 50%;
+         padding: 10px;
 }
 
 ul li:nth-child(3){
@@ -30,4 +38,6 @@ ul li:nth-child(3){
 
  ul li:nth-child(4){
     background-color: slategrey;
+    width: 50%;
+         padding: 10px;
 }
